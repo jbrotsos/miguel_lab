@@ -29,7 +29,7 @@ jobs:
     - name: Checkmarx Scan
       uses: checkmarx-ts/checkmarx-github-action@v1.0.3
       with:
-        cxServer: 'http://jbrotsos.ngrok.io'
+        cxServer: 'https://jbrotsos.ngrok.io'
         cxUsername: admin
         cxPassword: ${{ secrets.CHECKMARX_PASSWORD }}
         cxTeam: '\CxServer'
