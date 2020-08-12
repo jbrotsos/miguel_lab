@@ -30,7 +30,7 @@ jobs:
       uses: checkmarx-ts/checkmarx-github-action@v1.0.3
       with:
         cxServer: 'http://jbrotsos.ngrok.io'
-        cxUsername: ${{ secrets.CHECKMARX_USERNAME }}
+        cxUsername: admin
         cxPassword: ${{ secrets.CHECKMARX_PASSWORD }}
         cxTeam: '\CxServer'
 
